@@ -1,0 +1,59 @@
+h1{
+    -moz-box-shadow: 4px 4px 4px 4px #FF004F;
+    -webkit-box-shadow: 4px 4px 4px 4px #FF004F;
+    box-shadow: 4px 4px 4px 4px #FF004F;
+
+    color:#f86790;
+}
+
+body{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #FFA0B4;  
+}
+
+
+div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+    background-color: #FFE6ED;
+    width: 500px;
+    height: 500px;
+    align-items : center;
+    margin-left: 450px;
+    box-shadow: 0 0 10px #f0336f, 0 0 20px #eeaac0, 0 0 30px #ff7da6;
+    transition: box-shadow 0.3s ease;
+}
+
+div p {
+    color: #cd294d; 
+    font-size: 20px;
+}
+
+
+input{
+    height: 35px;
+    font-size: large;
+    text-align: center;
+    width: 73px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color:#ff004f;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+
+}
+
+button:hover {
+ cursor: pointer;
+ background-color: #ff004f;
+ transform: translateY(5px);
+box-shadow: 0 0 10px #f1457b, 0 0 20px #f1457b, 0 0 30px #f1457b;
+}
+
